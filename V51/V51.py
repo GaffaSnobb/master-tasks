@@ -14,7 +14,7 @@ def main():
     # multipole_type = "M1"
     
     res = ksutil.loadtxt(
-        path = "sdpf-mu/summary_V51_sdpf-mu_000.txt",
+        path = "sdpf-mu/200_states/summary_V51_sdpf-mu_000.txt",
         load_and_save_to_file = True
     )[0]
     bins, gsf_M1 = res.gsf(
