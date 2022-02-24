@@ -6,6 +6,13 @@
 *.jpeg
 *.wav
 *.sh
+*.npy
+*.npz
+*.snt
+*.ptn
+*.tgz
+collect_logs.py
+count_dim.py
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,fortran,macos,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,fortran,macos,linux
