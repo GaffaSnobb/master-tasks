@@ -4,6 +4,8 @@
 *.png
 *.jpg
 *.jpeg
+*.wav
+*.sh
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,fortran,macos,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,fortran,macos,linux
