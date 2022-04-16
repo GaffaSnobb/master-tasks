@@ -1,0 +1,29 @@
+Starting job 323599 on b[3245-3246,5145-5146] at Tue Mar 29 14:46:29 CEST 2022
+
+start running log_Sc45_GCLSTsdpfsdgix5pn_tr_j5p_j9p.txt ...
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+323599             5p9p        512                                             00:02:17      0:0 
+323599.batch      batch        128        1   00:00:00          0   00:00:00   00:02:17      0:0 
+323599.exte+     extern        512        4   00:00:00          2   00:00:00   00:02:18      0:0 
+323599.0     hydra_bst+        512        4   08:43:23          2   08:43:44   00:02:15      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+323599                                                                           
+323599.batch      8542K          0      8542K        9              0          9 
+323599.exte+       836K          0     852224        3              0          1 
+323599.0       2464190K          2 2514290432       60              3         51 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+323599                                                                                                
+323599.batch        9.25M               0          9.25M        0.44M                0          0.44M 
+323599.exte+        0.00M               2          0.00M            0                2              0 
+323599.0          830.03M               2        826.47M       65.75M                0         65.75M 
+
+Job 323599 completed at Tue Mar 29 14:48:47 CEST 2022

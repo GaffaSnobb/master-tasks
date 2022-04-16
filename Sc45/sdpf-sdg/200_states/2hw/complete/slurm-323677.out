@@ -1,0 +1,112 @@
+Starting job 323677 on b[1111-1113,1119,1130-1133,1145,2101,2146-2148,2178,2184-2185,2194,2202,2204,2221,2237-2238,2247-2249,2251-2253,3255-3256,3258,3288-3296,3324-3325,3331-3332,3341,3344,3347-3348,3373-3374,3379-3380,3382-3385,3391,4101-4103,4122-4125] at Tue Mar 29 23:47:58 CEST 2022
+
+start running log_Sc45_GCLSTsdpfsdgix5pn_tr_j3n_j5n.txt ...
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 323677 ON b1111 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.12 ON b3256 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.2 ON b1131 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.14 ON b3344 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.3 ON b2101 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.4 ON b4123 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.7 ON b3294 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.9 ON b2202 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.16 ON b3383 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.10 ON b3325 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.8 ON b2178 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.5 ON b4101 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.15 ON b3374 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.0 ON b1111 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.11 ON b2251 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.1 ON b1112 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.6 ON b2238 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 323677.13 ON b3290 CANCELLED AT 2022-03-30T00:47:17 DUE TO TIME LIMIT ***
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+323677             3n5n       8192                                             00:59:20      0:0 
+323677.batch      batch        128        1   00:00:00          0   00:00:00   00:59:21     0:15 
+323677.exte+     extern       8192       64   00:00:00         62   00:00:00   00:59:20      0:0 
+323677.0     hydra_bst+       2048       16 8-11:55:16         11 7-05:23:57   00:59:20      5:0 
+323677.1     hydra_bst+        384        3 10-06:22:+          2   20:33:43   00:59:20      5:0 
+323677.2     hydra_bst+        384        3 8-11:22:44          2 2-23:49:17   00:59:20      5:0 
+323677.3     hydra_bst+        384        3 10-06:20:+          2   10:17:24   00:59:20      5:0 
+323677.4     hydra_bst+        384        3 8-17:40:38          1 8-12:25:37   00:59:20      5:0 
+323677.5     hydra_bst+        384        3 8-18:11:26          1 1-05:10:20   00:59:20      5:0 
+323677.6     hydra_bst+        384        3 8-20:15:13          2   10:15:53   00:59:20      5:0 
+323677.7     hydra_bst+        384        3 10-06:18:+          0   20:33:15   00:59:20      5:0 
+323677.8     hydra_bst+        384        3 10-06:22:+          2 3-10:09:55   00:59:20      5:0 
+323677.9     hydra_bst+        384        3 10-06:24:+          0   20:31:45   00:59:20      5:0 
+323677.10    hydra_bst+        384        3 10-06:18:+          1   10:14:56   00:59:20      5:0 
+323677.11    hydra_bst+        384        3                                    00:59:17      0:0 
+323677.12    hydra_bst+        384        3 10-06:13:+          1   10:16:15   00:59:20      5:0 
+323677.13    hydra_bst+        384        3 9-09:35:28          2   10:15:22   00:59:20      5:0 
+323677.14    hydra_bst+        384        3 9-09:12:34          0 1-05:58:58   00:59:20      5:0 
+323677.15    hydra_bst+        384        3 10-06:26:+          0   20:32:32   00:59:20      5:0 
+323677.16    hydra_bst+        384        3 10-06:16:+          1 1-06:47:41   00:59:20      5:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+323677                                                                           
+323677.batch      8962K          0      8962K        9              0          9 
+323677.exte+       853K         51     812112        3             62          1 
+323677.0       7158430K         11 7271191424       85             15         72 
+323677.1       7106612K          2 7275244202       72              0         70 
+323677.2       7103011K          1 7238734506       65              2         62 
+323677.3       7070299K          2 7235429034       69              2         59 
+323677.4       7120988K          0   7108899K       70              2         65 
+323677.5       7139714K          2   7117527K       67              2         61 
+323677.6       7136963K          2 7278679722       67              0         62 
+323677.7       7125529K          0 7260018346       74              0         68 
+323677.8       7134815K          0 7276962474       71              1         68 
+323677.9       7128520K          1 7260346709       64              2         60 
+323677.10      7088489K          1 7247177386       74              0         63 
+323677.11                                                                        
+323677.12      7099728K          1   7093809K       72              2         66 
+323677.13      7153323K          1 7262636373       74              0         66 
+323677.14      7088598K          0 7253549397       70              1         66 
+323677.15      7095509K          2 7255521962       79              0         70 
+323677.16      7127290K          0 7286017706       75              0         64 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+323677                                                                                                
+323677.batch       15.95M               0         15.95M       21.42M                0         21.42M 
+323677.exte+        0.00M              62          0.00M            0               62              0 
+323677.0         3770.22M               7       3694.71M       79.16M                0         70.50M 
+323677.1         3733.44M               1       3698.56M       66.72M                2         66.72M 
+323677.2         3694.13M               2       3680.98M       66.72M                2         66.72M 
+323677.3         3784.29M               0       3749.25M       66.72M                2         66.72M 
+323677.4         3661.23M               0       2722.01M       66.72M                2         66.72M 
+323677.5         3669.71M               2       3659.19M       66.72M                2         66.72M 
+323677.6         3689.83M               0       3672.63M       66.72M                0         66.72M 
+323677.7         3693.97M               1       3671.10M       66.72M                1         66.72M 
+323677.8         3707.20M               2       3680.10M       66.72M                1         66.72M 
+323677.9         3666.25M               2       3659.84M       66.72M                0         66.72M 
+323677.10        3682.76M               0       3663.21M       66.72M                2         66.72M 
+323677.11                                                                                             
+323677.12        3766.41M               0       3711.54M       66.72M                0         66.72M 
+323677.13        3661.91M               0       3654.26M       66.72M                1         66.72M 
+323677.14        3718.74M               2       3694.37M       66.72M                2         66.72M 
+323677.15        3680.99M               0       3662.27M       66.72M                1         66.72M 
+323677.16        3668.81M               1       3660.08M       66.72M                2         66.72M 
+
+Job 323677 completed at Wed Mar 30 00:47:22 CEST 2022
