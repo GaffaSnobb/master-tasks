@@ -149,8 +149,7 @@ def V50_V51_compare_experimental_and_gxpf1a_sdpfmu_M1():
         path = "sdpf-mu/200_levels/summary_V51_sdpf-mu_000.txt"
     )
     V51_gxpf1a = ksutil.loadtxt(
-        path = "gxpf1a/400_levels/summary_V51_gxpf1a_400_levels.txt",
-        old_or_new = "old"
+        path = "gxpf1a/400_levels/summary_V51_gxpf1a_000.txt",
     )
     V50_sdpfmu = ksutil.loadtxt(
         path = "../V50/sdpf-mu/200_levels/1hw/summary_V50_sdpf-mu_000.txt"
@@ -279,8 +278,7 @@ def compare_experimental_and_gxpf1a_sdpfmu_M1():
         path = "sdpf-mu/200_levels/summary_V51_sdpf-mu_000.txt"
     )
     res_gxpf1a = ksutil.loadtxt(
-        path = "gxpf1a/400_levels/summary_V51_gxpf1a_400_levels.txt",
-        old_or_new = "old"
+        path = "gxpf1a/400_levels/summary_V51_gxpf1a_000.txt",
     )
     bins_M1_sdpfmu, gsf_M1_sdpfmu = res_sdpfmu.gsf(
         bin_width = BIN_WIDTH,
