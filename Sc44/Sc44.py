@@ -14,7 +14,7 @@ def compare_experimental_GCLSTsdpfsdgix5pn():
     fig, ax = plt.subplots()
     N, Ex, gsf_experimental, gsf_std = np.loadtxt("Sc44_gsf.txt", skiprows=2, unpack=True)
     ax.errorbar(Ex, gsf_experimental, yerr=gsf_std, fmt=".", capsize=1, elinewidth=0.5, label="Exp. old", color="black")
-    Ex, gsf_experimental, gsf_std = np.loadtxt("gsf_44Sc_renorm_2022.txt", skiprows=2, unpack=True)
+    Ex, gsf_experimental, gsf_std = np.loadtxt("Sc44_gsf_renorm_2022.txt", skiprows=2, unpack=True)
     ax.errorbar(Ex, gsf_experimental, yerr=gsf_std, fmt=".", capsize=1, elinewidth=0.5, label="Exp. new", color="grey")
     
     res_GCLSTsdpfsdgix5pn = ksutil.loadtxt(
