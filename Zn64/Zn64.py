@@ -8,6 +8,53 @@ BIN_WIDTH = 0.2
 EX_MIN = 5
 EX_MAX = 11.8619 # S(n)
 
+def primary_matrix():
+    Zn64 = ksutil.loadtxt(path="sdpf-sdg/200_levels/1hw_1416/")
+    Ex_range, Eg_range, B_matrix = Zn64.primary_matrix(
+        Ex_min = 0,
+        Ex_max = EX_MAX,
+        multipole_type = "M1",
+        plot = False,
+    )
+    fig, ax = plt.subplots()
+    im = ax.pcolormesh(Ex_range, Eg_range, B_matrix, cmap="jet", norm="log")#, vmin=3e-4, vmax=2e-1)
+    ax.set_title(r"$\langle B(M1) \rangle$")
+    ax.set_xlabel(r"$E_{\gamma}$ [MeV]")
+    ax.set_ylabel(r"$E_{x}$ [MeV]")
+    fig.colorbar(im)
+    fig.savefig(fname="Zn64_primary_matrix_M1.png", dpi=300)
+    plt.show()
+
+    Ex_range, Eg_range, B_matrix = Zn64.primary_matrix(
+        Ex_min = 0,
+        Ex_max = EX_MAX,
+        multipole_type = "E1",
+        plot = False,
+    )
+    fig, ax = plt.subplots()
+    im = ax.pcolormesh(Ex_range, Eg_range, B_matrix, cmap="jet", norm="log")#, vmin=3e-4, vmax=2e-1)
+    ax.set_title(r"$\langle B(E1) \rangle$")
+    ax.set_xlabel(r"$E_{\gamma}$ [MeV]")
+    ax.set_ylabel(r"$E_{x}$ [MeV]")
+    fig.colorbar(im)
+    fig.savefig(fname="Zn64_primary_matrix_E1.png", dpi=300)
+    plt.show()
+
+    Ex_range, Eg_range, B_matrix = Zn64.primary_matrix(
+        Ex_min = 0,
+        Ex_max = EX_MAX,
+        multipole_type = ["M1", "E1"],
+        plot = False,
+    )
+    fig, ax = plt.subplots()
+    im = ax.pcolormesh(Ex_range, Eg_range, B_matrix, cmap="jet", norm="log")#, vmin=3e-4, vmax=2e-1)
+    ax.set_title(r"$\langle B(E1, M1) \rangle$")
+    ax.set_xlabel(r"$E_{\gamma}$ [MeV]")
+    ax.set_ylabel(r"$E_{x}$ [MeV]")
+    fig.colorbar(im)
+    fig.savefig(fname="Zn64_primary_matrix_E1_M1.png", dpi=300)
+    plt.show()
+
 def main():
     Zn64 = ksutil.loadtxt(path="sdpf-sdg/200_levels/1hw_1416/")
 
@@ -69,4 +116,5 @@ def main():
     )
 
 if __name__ == "__main__":
+    primary_matrix()
     main()
