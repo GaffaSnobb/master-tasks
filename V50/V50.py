@@ -44,7 +44,7 @@ def compare_varying_number_of_levels_per_j():
     ax_0.set_ylabel(r"GSF [MeV$^{-3}$]")
     ax_0.set_title(r"$^{50}$V, sdpf-mu, M1")
     ax_0.legend()
-    fig_0.savefig("V50_gsf_sdpf-mu_var_n_levels_E1.png", dpi=300)
+    fig_0.savefig("V50_gsf_sdpf-mu_var_n_levels_M1.png", dpi=300)
 
     ax_1.set_xlabel(r"$E$ [MeV]")
     ax_1.set_ylabel(r"NLD [MeV$^{-1}$]")
